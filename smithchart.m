@@ -100,11 +100,11 @@ end
 %values of constant b circles
 b        = [-0.5 -1 -3 0.5 1 3];
 %radius of constant b circles
-radius_b = 1./x;
+radius_b = 1./b;
 %abcissa of center of constant b circle, this time -ve of constant x circle
 a_b      = -1;
 %ordinate of center of constant b circle
-b_b      = 1./x;
+b_b      = 1./b;
 
 %plotting constant b circles
 for i = 1:length(b)
